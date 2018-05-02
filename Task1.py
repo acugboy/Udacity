@@ -21,7 +21,7 @@ count = len(set(tel_numbers))
 
 #显示结果
 print("There are {} different telephone numbers in the records.".format(count))
-    
+
 """
 任务1：
 短信和通话记录中一共有多少电话号码？每个号码只统计一次。

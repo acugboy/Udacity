@@ -53,4 +53,3 @@ for i in numlist:
 <list of numbers>
 电话号码不能重复，每行打印一条，按字典顺序排序后输出。
 """
-

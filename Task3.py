@@ -46,13 +46,13 @@ for i in c:
 def ratio(call_list):
     l = find_an(call_list)
     n = l.count('(080)')
-    return n/len(l)
+    return n/len(l)*100
 
 #调用函数
 r = ratio(call_total)
 
 #显示结果
-print("\n{} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(round(r,2)))
+print("\n{:.2f} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(r))
 
 
 
